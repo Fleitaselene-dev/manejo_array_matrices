@@ -1,9 +1,29 @@
-print("hola")
+print("--Registro de personas--")
+print("Si desea terminar escriba 'finalizar' en el campo nombre.")
 
-matriz = [5,6,7,8]
+personas = []
+    
 
-print("el tercer valor que aparece en la matriz es", matriz[2]);
+    
+while True: 
+        nombre = input("Nombre: ")
+        if nombre.lower() == "finalizar":
+            break
+        edad = (input("Edad: "))
+        nota = int(input("Nota: "))
+
+        personas.append([nombre, edad, int(nota)])
+      
 
 
+print("Lista de personas: ")
+for persona in personas:
+    print(f"Nombre: {persona[0]}, Edad: {persona[1]}, Nota: {persona[2]}")
 
-print("programa finalizado")
+
+notas = sorted(personas, key=lambda x: int(x[2]), reverse=True)
+
+
+print("\nLista por nota: ")
+for persona in notas:
+    print(f"Nombre: {persona[0]}, Edad: {persona[1]}, Nota: {persona[2]}")

@@ -1,0 +1,29 @@
+# Registro de Personas por Array
+
+Este programa permite registrar datos de varias personas (nombre, edad y nota) y mostrar los resultados en dos formatos:  
+- **Listado completo**  
+- **Listado ordenado por nota (de mayor a menor)**  
+
+## Versiones Disponibles  
+- **JavaScript**  
+- **Python**  
+
+## Cómo Ejecutar el Programa  
+
+### Versión JavaScript  
+1. Abre el archivo `manejoArray.js` de una de estas formas:   
+   - Copiando el código en la consola del navegador (F12).  
+   - En caso de que el navegador le tire error al copiar escriba "allow pasting" y precione Enter.
+   - Intente copiar nueva mente.
+2. Ingresa los datos de cada persona.  
+3. Para finalizar, escribe **"finalizar"** en la opcion de nombre 
+
+### Versión Python  
+2. Abre una terminal y navega hasta la ubicación del archivo.  
+3. Ejecuta: `python manejoArray.py`.  
+4. Ingresa los datos de cada persona.  
+5. Para finalizar, escribe **"finalizar"** en la opcion de nombre
+
+
+
+
