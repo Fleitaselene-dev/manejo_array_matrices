@@ -13,7 +13,7 @@ Este programa permite registrar datos de varias personas (nombre, edad y nota) y
 ### Versión JavaScript  
 1. Abre el archivo `manejoArray.js` de una de estas formas:   
    - Copiando el código en la consola del navegador (F12).  
-   - En caso de que el navegador le tire error al copiar escriba "allow pasting" y precione Enter.
+   - Si aparece el mensaje de advertencia: **"Warning: Don’t paste code into the DevTools Console..."**, escriba "allow pasting" y precione Enter.
    - Intente copiar nueva mente.
 2. Ingresa los datos de cada persona.  
 3. Para finalizar, escribe **"finalizar"** en la opcion de nombre 
